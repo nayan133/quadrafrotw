@@ -1,0 +1,207 @@
+.difference_content {
+    background-color: white;
+    padding: 50px;
+    overflow: hidden;
+
+    .diff_head {
+        //padding: 5px;
+        padding: 30px 5px;
+        padding-top: 0;
+
+        h1 {
+            span {
+                color: green;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .diff_cards {
+        
+
+        .diff_card_main {
+            box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
+            position: relative;
+            border-radius: 10px;
+        
+            .Diff_img1 {
+              
+                
+                background-position: 100% 100%;
+                background-size: cover;
+                overflow: hidden;
+                img{
+                    height: 250px;
+                    width: 100%;
+                    //padding: 5px;
+                    transition: 0.5s;
+                    // border-top-left-radius: 10px;
+                    // border-top-right-radius: 10px;
+                }
+                &:hover{
+                    background-image:linear-gradient(90deg, #4453ac 0%, #03a9db 51%, #4453ac 100%);
+                    
+                    img{
+                        opacity: 0.5;
+                        scale: 1.2;
+                        transition: 0.5s;
+                       
+                    }
+                }
+            }
+            .Diff_img2 {
+                overflow: hidden;
+                // background: #fc00ff;  /* fallback for old browsers */
+                // background: -webkit-linear-gradient(to left, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+                /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                
+
+                
+            
+                img{
+                    height: 250px;
+                    width: 100%;
+                    //padding: 5px;
+                    transition: 0.5s;
+                    // border-top-left-radius: 10px;
+                    // border-top-right-radius: 10px;
+                }
+                &:hover{
+                   
+                    
+                    img{
+                        opacity: 0.5;
+                        scale: 1.2;
+                        transition: 0.5s;
+                    }
+                    // background: linear-gradient(to left, #00dbde, #fc00ff);
+                    // background: linear-gradient( #1d976c, #93f9b9);
+                    background-image: linear-gradient(90deg, #1d976c 0%, #93f9b9 51%, #1d976c 100%);
+                }
+            }
+            .Diff_img3 {
+                overflow: hidden;
+                
+              
+                img{
+                    height: 250px;
+                    width: 100%;
+                    //padding: 5px;
+                    transition: 0.5s;
+                    // border-top-left-radius: 10px;
+                    // border-top-right-radius: 10px;
+                    
+                }
+                &:hover{
+                   
+                    
+                    img{
+                        opacity: 0.5;
+                        scale: 1.2;
+                        transition: 0.5s;
+                    }
+                    background-image: linear-gradient(90deg, #4a0e8f 0%, #b430a7 51%, #4a0e8f 100%);
+                }
+
+            }
+            .Diff_img4 {
+                overflow: hidden;
+               
+                img{
+                    height: 250px;
+                    width: 100%;
+                    //padding: 5px;
+                    transition: 0.5s;
+                    // border-top-left-radius: 10px;
+                    // border-top-right-radius: 10px;
+                }
+                &:hover{
+                   
+                    
+                    img{
+                        opacity: 0.5;
+                        scale: 1.2;
+                        transition: 0.5s;
+                     
+                    }
+                    background-image:linear-gradient(90deg, #e41256 0%, #ffa337 51%, #e41256 100%);
+                }
+            }
+
+        }
+
+        .diff_content {
+            padding: 20px;
+            background-color: white;
+            height: 230px;
+            overflow: hidden;
+            position: relative;
+            // border-radius: 10px;
+           
+            h3{
+                height: 65px;
+                overflow: hidden;
+
+            }
+           
+
+            // p {}
+            .btn1{
+                background-image:linear-gradient(90deg, #4453ac 0%, #03a9db 51%, #4453ac 100%);
+                color: white;
+                border: none;
+                padding: 5px 10px;
+            }
+            .btn2{
+                // background: linear-gradient(to left, #00dbde, #fc00ff); 
+                background: linear-gradient(90deg, #1d976c 0%, #93f9b9 51%, #1d976c 100%);
+                color: white;
+                border: none;
+                padding: 5px 10px;
+            }
+            .btn3{
+                background-image: linear-gradient(90deg, #4a0e8f 0%, #b430a7 51%, #4a0e8f 100%);
+                color: white;
+                border: none;
+                padding: 5px 10px;
+            }
+            .btn4{
+                background-image:linear-gradient(90deg, #e41256 0%, #ffa337 51%, #e41256 100%);
+                color: white;
+                border: none;
+                padding: 5px 10px;
+            }
+
+            button {
+              position: absolute;
+              bottom: 10%;
+            //   right: 10%;
+                
+            }
+        }
+    }
+}
+#open_1{
+    display: none;
+}
+#open_2{
+    display: none;
+}
+#open_3{
+    display: none;
+}
+#open_4{
+    display: none;
+}
+
+@media screen and (min-width:200px) and (max-width:500px) {
+   .difference_content {
+    padding: 30px 12px;
+   }
+   .difference_content .diff_head{
+    text-align: center;
+   }
+   .diff_card_main{
+    margin: 15px 0px;
+   }
+}

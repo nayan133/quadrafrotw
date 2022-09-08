@@ -1,0 +1,163 @@
+.wedosec{
+    // height: 100vh;
+    padding-bottom: 30px;
+    width: 100%;
+    background: linear-gradient(to right, #00A859, #CCE2A6);;
+    .head_wedo_Sec{
+        padding: 30px 0px;
+        span{
+            color:#F89833;
+        }
+        h1{
+            color: white;
+        }
+    }
+    .wedo_cards1{
+        color: black;
+        background-color: white;
+        height: 450px;
+        background-image: linear-gradient(to right, white, #eaf3fd);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        padding: 20px;
+        position: relative;
+        // border-radius: 10px;
+        .arrow_wedo{
+            height: 80px;
+            position: absolute;
+            bottom: 7%;
+            left: 5%;
+        }
+        img{
+            height: 80px;
+            margin: 10px;
+            // position: absolute;
+            // bottom: 10%;
+            // left: 5%;
+        }
+        h3{
+            color: #3a93e7;
+            margin-top: 20px;
+            height: 65px;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+            li{
+                padding-left: 0;
+                padding-top: 5px;
+            }
+        }
+    }
+    .wedo_cards2{
+        color: black;
+        background-color: white;
+        height: 450px;
+        background-image: linear-gradient(to right, white, #fef9e6);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        padding: 20px;
+        position: relative;
+        // border-radius: 10px;
+        .arrow_wedo{
+            height: 80px;
+            position: absolute;
+            bottom: 7%;
+            left: 5%;
+        }
+        img{
+            height: 80px;
+
+            margin: 10px;
+            // position: absolute;
+            // bottom: 10%;
+            // left: 5%;
+        }
+        h3{
+            color: #f1c50e;
+            margin-top: 20px;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+            li{
+                padding-left: 0;
+                padding-top: 5px;
+            }
+        }
+    }
+    .wedo_cards3{
+        color: black;
+        background-color: white;
+        height: 450px;
+        background-image: linear-gradient(to right, white, #f2fbed);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        padding: 20px;
+        position: relative;
+        // border-radius: 10px;
+        .arrow_wedo{
+            height: 80px;
+            position: absolute;
+            bottom: 7%;
+            left: 5%;
+        }
+        img{
+            height: 80px;
+            margin: 10px;
+            // position: absolute;
+            // bottom: 10%;
+            // left: 5%;
+        }
+        h3{
+            color: #6fb845;
+            margin-top: 20px;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+            li{
+                padding-left: 0;
+                padding-top: 5px;
+            }
+        }
+    }
+    .wedo_cards4{
+        color: black;
+        background-color: white;
+        height: 450px;
+        background-image: linear-gradient(to right, white, #fbeced);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        padding: 20px;
+        position: relative;
+        // border-radius: 10px;
+        .arrow_wedo{
+            height: 80px;
+            position: absolute;
+            bottom: 7%;
+            left: 5%;
+        }
+        img{
+            height: 80px;
+            margin: 10px;
+            // position: absolute;
+            // bottom: 10%;
+            // left: 5%;
+        }
+        h3{
+            color:#db545a;
+            margin-top: 20px;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+            li{
+                padding-left: 0;
+                padding-top: 5px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:500px) {
+    .wedocard_S{
+        margin: 15px 0px;
+    }
+}

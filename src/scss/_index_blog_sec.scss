@@ -1,0 +1,205 @@
+.blog_index_sec {
+    padding: 50px 0px;
+    overflow: hidden;
+    .social_blocks{
+      
+        overflow: hidden;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        // width: 20px;
+   
+        position: fixed;
+       
+        top: 35%;
+        right: 0.5%;
+        transition: 0.5s;
+        &:hover{
+            width: max-content;
+            
+            transition: 0.5s;
+            a{
+                color: white !important;
+            }
+        }
+        .fb_{
+            a{
+                color: green;
+                cursor: pointer;
+                img{
+                    height: 30px;
+                    margin: 4px 0px;
+                    transition: 0.3s;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+        .insta_{
+            a{
+                color: green;
+                cursor: pointer;
+                img{
+                    height: 30px;
+                    margin: 4px 0px;
+                    transition: 0.3s;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: 0.3s;
+                    }
+                }
+            }
+            margin: 10px 0px;
+        }
+        
+        .linkdin_{
+            a{
+                color: green;
+                cursor: pointer;
+                img{
+                    height: 30px;
+                    margin: 4px 0px;
+                    transition: 0.3s;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+        .twitter_{
+            a{
+                color: green;
+                cursor: pointer;
+                img{
+                    height: 30px;
+                    margin: 4px 0px;
+                    transition: 0.3s;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: 0.3s;
+                    }
+                  
+                }
+            }
+        }
+        
+    }
+    .head_blog_index{
+        padding-bottom: 20px;
+        h1{
+            span{
+                color:#EA396E;
+            }
+        }
+    }
+    .b_card_{
+        // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
+        padding-bottom: 30px;
+        margin: 5px;
+        height: 535px;
+        position: relative;
+        // .blog-exp{
+        //     padding-left: 15px;
+        //     margin-top: -7%;
+        //     background: linear-gradient(to right, #8B3A8C, #EA396E); 
+        // }
+        .blog_card_one{
+            background-image: url("../images/bank.jpg");
+            height: 250px;
+            background-size: cover;
+            position: relative;
+            .date_blog{
+                background: linear-gradient(to right, #8B3A8C, #EA396E); 
+                width: 50%;
+                position: absolute;
+                bottom: 0%;
+                border-radius: 5px;
+                p{
+                    color: white;
+                    margin: 5px;
+                }
+            }
+        }
+        .blog_card_two{
+            background-image: url("../images/lowcode.jpg");
+            height: 250px;
+            background-size: cover;
+            position: relative;
+            .date_blog{
+                background: linear-gradient(to right, #00A859, #CCE2A6);
+                width: 50%;
+                position: absolute;
+                bottom: 0%;
+                border-radius: 5px;
+                p{
+                    color: white;
+                    margin: 5px;
+                }
+            }
+        }
+        .blog_card_three{
+            background-image: url("../images/Metaverse.webp");
+            height: 250px;
+            background-size: cover;
+            position: relative;
+            .date_blog{
+                background: linear-gradient(to right, #F15D39, #F89833); 
+                width: 50%;
+                position: absolute;
+                bottom: 0%;
+                border-radius: 5px;
+                p{
+                    color: white;
+                    margin: 5px;
+                }
+            }
+        }
+      
+        img{
+            height: 250px;
+            width: 100%;
+        }
+        h3{
+            margin-top: 30px;
+            padding-left: 15px;
+        }
+        p{
+            padding-left: 15px;
+            
+        }
+        a{
+            padding-left: 15px;
+            position: absolute;
+            bottom: 15px;
+
+        }
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1300px) {
+    .b_card_{
+        height: 560px !important;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .b_card_{
+        height: auto !important;
+    }
+}
+@media screen and (min-width:0px) and (max-width:1000px) {
+    .social_blocks{
+        display: none;
+    }
+}
+@media screen and (min-width:200px) and (max-width:500px) {
+    .blog_index_sec{
+        padding: 30px 10px;
+    }
+    .b_card_{
+        margin: 15px 0px !important;
+    }
+}

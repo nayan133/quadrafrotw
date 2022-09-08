@@ -1,0 +1,157 @@
+.company_aboutsec{
+    padding: 50px;
+    background-image: linear-gradient(rgba(138,43,226,0.99), rgba(138,43,226,0.99)), url("../images/prrofilebg.jpg");
+    background-size: cover;
+    position: relative;
+    // height: 80vh;
+
+    width: 100%;
+    color: white;
+    // background-image: linear-gradient(rgba(234, 57, 110, 0.8), rgba(234, 57, 110, 0.8)), url("../images/prrofilebg.jpg");
+    .spec{
+        padding: auto;
+        border-radius: 15px;
+        padding: 12px;
+        margin: 10px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        position: relative;
+        // background-color: transparent;
+        // background: linear-gradient(to right, #00A859, #CCE2A6);
+        // width: 80%;
+        .side_pro{
+            position: absolute;
+            right: 5%;
+            opacity: 0.3;
+            // height: 500px;
+        }
+        p{
+            color: white;
+            margin-bottom: 0;
+
+        }
+        h2{
+         color: white;
+         font-weight: 600;
+         font-size: 20px;
+        }
+        img{
+            height: 50px;
+            // height: 82px;
+            margin: 10px;
+        }
+    }
+ 
+    .about_sec{
+        .about_sec_head{
+            text-align: center;
+            span{
+                color: #FBB131;
+            }
+        }
+        .profile_card_head{
+            margin-top: 30px;
+            .svg_side{
+                padding: 20px;
+                display: none;
+                img{
+                    height: 250px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            .profile_card_left{
+                padding-left: 10px;
+                padding-top: 50px;
+                display: none;
+                span{
+                    color: #F15D39;
+                }
+                
+                h2{
+                    font-size: 40px;
+                    font-weight: 500;
+                    
+                }
+                img{
+                    position: absolute;
+                    left: 30%;
+                    top: 70%;
+                }
+            }
+            .profile_card_right{
+                .profile_row{
+                    .spec{
+                        padding: auto;
+                        border-radius: 15px;
+                        padding: 12px;
+                        margin: 10px;
+                        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+                        // background-color: transparent;
+                        background: linear-gradient(to right, #00A859, #CCE2A6);
+                        // width: 80%;
+                        p{
+                            color: white;
+                            margin-bottom: 0;
+
+                        }
+                        h2{
+                         color: white;
+                         font-weight: 600;
+                         font-size: 20px;
+                        }
+                        img{
+                            height: 50px;
+                            margin: 10px;
+                        }
+                    }
+                    .served{
+                        background: #EA396E;
+                    }
+                    .team{
+                         background: #F15D39;
+                    }
+                    .iso{
+                        background: #00A859;
+                    }
+                    .CMMI{
+                        background: #8B3A8C;
+                    }
+                    .greatplace{
+                        background: linear-gradient(to right, #FBB131, #FBDA39);
+                    } 
+                     
+                }
+            }
+           
+        }
+    }
+}
+.greatplace{
+    background: linear-gradient(to right, #FBB131, #FBDA39);
+    width: 47%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    .GPTW{
+        position: absolute;
+        height: 120px !important;
+        right: 5%;
+        top: 0%;
+    }
+    .side_p1{
+        right: 20% !important;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:500px) {
+    .company_aboutsec{
+        padding: 30px 0px;
+    }
+    .greatplace{
+        width: 94%;
+    }
+    .GPTW{
+        height: 60px !important;
+    }
+    
+}
